@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .d-flex {
+        @apply flex items-center justify-between;
+    }
+    .btn-red {
+        @apply bg-gradient-to-br from-accent to-red-700 py-2 rounded-xl px-5 text-sm font-bold text-txt;
+    }
+    .container-section {
+        @apply flex items-center justify-around mx-auto py-28;
+    }
+    .card-services {
+        @apply w-[25%] backdrop-blur-xl bg-black/30 p-5 rounded-2xl drop-shadow-md;
+    }
+    .card-populer {
+        @apply w-[20%] bg-black/30 p-5 rounded-2xl text-txt;
+    }
+    .list-subs{
+        @apply flex items-center gap-x-3 text-txt pb-5
+    }
+}
