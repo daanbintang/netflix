@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link href="/dist/output.css" rel="stylesheet" />
+        <link
+            rel="shortcut icon"
+            href="../asset/favicon.png"
+            type="image/x-icon"
+        />
+        <title>netflix.com</title>
+    </head>
+    <body class="bg-background">
+        <!-- NAVBAR SECTION -->
+        <header class="fixed w-full bg-background z-10">
+            <nav class="text-txt d-flex container mx-auto py-5">
+                <img
+                    src="../asset/navbar/logos_netflix.png"
+                    alt="netflix-logo"
+                    class=""
+                />
+                <ul class="d-flex gap-x-10">
+                    <li class=""><a href="#movies.html">Movies</a></li>
+                    <li class=""><a href="#tv-shows.html">TV Shows</a></li>
+                    <li class="">
+                        <a href="#nex-popular.html">New & Popular</a>
+                    </li>
+                </ul>
+                <button class="btn-red">Masuk</button>
+            </nav>
+        </header>
+        <!-- END NAVBAR -->
+
+        <main>
+            <!-- HERO SECTION -->
+
+            <section id="hero" class="container-section">
+                <div class="w-[40%]">
+                    <h1 class="text-5xl text-txt font-bold">
+                        Nikmati Tontonan Dimana Saja, dan Kapan Saja
+                    </h1>
+                    <p class="text-txtDark py-5 text-sm leading-relaxed">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Rem obcaecati eum excepturi numquam repudiandae quidem
+                        repellendus fugiat, dolores eius alias! Lorem ipsum
+                        dolor, sit amet consectetur adipisicing elit. Natus,
+                    </p>
+                    <button class="btn-red">
+                        <a href="daftar.html">Daftar Sekarang</a>
+                    </button>
+                </div>
+                <div>
+                    <img
+                        src="../asset/hero/Intersect.png"
+                        alt="Intersect"
+                        class="w-[80%] mx-auto bg-gradient-to-br from-accent to-black rounded-full"
+                    />
+                </div>
+            </section>
+            <!-- END HERO -->
+
+            <!-- SERVICES SECTION -->
+            <section id="services" class="container mx-auto py-20">
+                <h1 class="text-txt text-5xl font-bold ml-10 -mb-16">
+                    <span class="text-accent">Layanan Terbaik</span> yang Tidak
+                    Mengecewakan
+                </h1>
+                <div id="cards" class="container-section container gap-x-5">
+                    <div class="card-services">
+                        <img
+                            src="../asset/services/fluent_tv-24-regular.png"
+                            alt="download untuk offline"
+                        />
+                        <h1 class="text-txt font-semibold py-2">
+                            Tonton langsung di TV
+                        </h1>
+                        <p class="text-txtDark text-sm">
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Obcaecati placeat laudantium sequi ratione.
+                            Doloribus, perferendis quam odit sint inventore at?
+                        </p>
+                    </div>
+                    <div class="card-services">
+                        <img
+                            src="../asset/services/fluent_phone-tablet-20-regular.png"
+                            alt="download untuk offline"
+                        />
+                        <h1 class="text-txt font-semibold py-2">
+                            Download untuk offline
+                        </h1>
+                        <p class="text-txtDark text-sm">
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Obcaecati placeat laudantium sequi ratione.
+                            Doloribus, perferendis quam odit sint inventore at?
+                        </p>
+                    </div>
+                    <div class="card-services">
+                        <img
+                            src="../asset/services/gridicons_share-computer.png"
+                            alt="download untuk offline"
+                        />
+                        <h1 class="text-txt font-semibold py-2">
+                            Akses berbagai perangkat
+                        </h1>
+                        <p class="text-txtDark text-sm">
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Obcaecati placeat laudantium sequi ratione.
+                            Doloribus, perferendis quam odit sint inventore at?
+                        </p>
+                    </div>
+                    <div class="card-services">
+                        <img
+                            src="../asset/services/cil_child.png"
+                            alt="download untuk offline"
+                        />
+                        <h1 class="text-txt font-semibold py-2">
+                            Buat profile untuk anak
+                        </h1>
+                        <p class="text-txtDark text-sm">
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Obcaecati placeat laudantium sequi ratione.
+                            Doloribus, perferendis quam odit sint inventore at?
+                        </p>
+                    </div>
+                </div>
+                <div class="d-flex gap-x-10">
+                    <img
+                        src="../asset/services/pexels-karolina-grabowska-5202925-removebg 1.png"
+                        alt="Tv"
+                        class="w-[70%]"
+                    />
+                    <h1
+                        class="leading-relaxed text-5xl text-txt font-bold bg-gradient-to-r from-background to-accent py-20 px-2 text-center rounded-2xl"
+                    >
+                        Tonton Film, Acara TV Tak Terbatas, dan Lebih Banyak
+                        Lagi
+                    </h1>
+                </div>
+            </section>
+            <!-- END SERVICES -->
+
+            <!-- POPULER SECTION-->
+            <section id="popular" class="container mx-auto py-20">
+                <div class="d-flex pb-10">
+                    <h1 class="text-5xl font-bold text-txt">
+                        <span class="text-accent"
+                            >Film dan Acara TV Populer</span
+                        >
+                        Bulan Ini
+                    </h1>
+                    <button class="btn-red">Lihat Semua</button>
+                </div>
+                <div class="flex items-center justify-evenly">
+                    <div class="card-populer">
+                        <img src="../asset/populer/Rectangle 21.png" />
+                        <h1 id="title" class="pt-3">Peaky Blinders</h1>
+                        <p id="genre" class="pt-1 pb-2 text-sm text-txtDark">
+                            Crime, Drama
+                        </p>
+                        <p
+                            id="rating"
+                            class="flex items-center text-xs gap-x-2 text-txtDark"
+                        >
+                            <img
+                                src="../asset/populer/Haruki Icons.png"
+                                class="w-4"
+                            />
+                            <span>8.8/10 IMDb</span>
+                        </p>
+                    </div>
+                    <div class="card-populer">
+                        <img src="../asset/populer/Rectangle 22.png" />
+                        <h1 id="title" class="pt-3">Spider Man: No Way Home</h1>
+                        <p id="genre" class="pt-1 pb-2 text-sm text-txtDark">
+                            Action,Adventure,Fantasy
+                        </p>
+                        <p
+                            id="rating"
+                            class="flex items-center text-xs gap-x-2 text-txtDark"
+                        >
+                            <img
+                                src="../asset/populer/Haruki Icons.png"
+                                class="w-4"
+                            />
+                            <span>8.8/10 IMDb</span>
+                        </p>
+                    </div>
+                    <div class="card-populer">
+                        <img src="../asset/populer/Rectangle 23.png" />
+                        <h1 id="title" class="pt-3">
+                            Arcane: League of Legends
+                        </h1>
+                        <p id="genre" class="pt-1 pb-2 text-sm text-txtDark">
+                            Animation,Action,Adventure
+                        </p>
+                        <p
+                            id="rating"
+                            class="flex items-center text-xs gap-x-2 text-txtDark"
+                        >
+                            <img
+                                src="../asset/populer/Haruki Icons.png"
+                                class="w-4"
+                            />
+                            <span>9.2/10 IMDb</span>
+                        </p>
+                    </div>
+                    <div class="card-populer">
+                        <img src="../asset/populer/Rectangle 24.png" />
+                        <h1 id="title" class="pt-3">Joker</h1>
+                        <p id="genre" class="pt-1 pb-2 text-sm text-txtDark">
+                            Crime,Drama,Thriller
+                        </p>
+                        <p
+                            id="rating"
+                            class="flex items-center text-xs gap-x-2 text-txtDark"
+                        >
+                            <img
+                                src="../asset/populer/Haruki Icons.png"
+                                class="w-4"
+                            />
+                            <span>8.8/10 IMDb</span>
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <!-- END POPULER -->
+
+            <!-- SUBSCRIBE PACKAGE SECTION -->
+            <section id="subs" class="container mx-auto py-20">
+                <h1 class="text-center font-bold text-txt text-5xl">
+                    Pilih Paket Yang Cocok Untukmu
+                </h1>
+
+                <div class="flex items-center justify-evenly">
+                    <div class="card-services my-10">
+                        <h1
+                            id="package"
+                            class="text-txt font-bold text-center text-xl"
+                        >
+                            Basic
+                        </h1>
+                        <h1
+                            id="price"
+                            class="text-accent text-center font-bold py-5 text-4xl"
+                        >
+                            Rp 120,000<span class="text-sm">/bulan</span>
+                        </h1>
+                        <div class="list-subs">
+                            <img
+                                src="../asset/subscribe-package/Haruki Icons.png"
+                                class="bg-accent rounded-full"
+                            />
+                            <p>Ponsel, Tablet, Komputer, TV</p>
+                        </div>
+                        <div class="list-subs">
+                            <img
+                                src="../asset/subscribe-package/Haruki Icons.png"
+                                class="bg-accent rounded-full"
+                            />
+                            <p>No Ads</p>
+                        </div>
+                        <div class="list-subs">
+                            <img
+                                src="../asset/subscribe-package/Haruki Icons.png"
+                                class="bg-accent rounded-full"
+                            />
+                            <p>Batalkan Kapan Saja</p>
+                        </div>
+                        <div class="list-subs">
+                            <img
+                                src="../asset/subscribe-package/Haruki Icons.png"
+                                class="bg-accent rounded-full"
+                            />
+                            <p>Kualitas Video Baik</p>
+                        </div>
+                        <div class="list-subs">
+                            <img
+                                src="../asset/subscribe-package/Haruki Icons.png"
+                                class="bg-accent rounded-full"
+                            />
+                            <p>Resolusi 480p</p>
+                        </div>
+
+                        <button id="btn-subs" class="btn-red mt-10">
+                            Pilih Paket
+                        </button>
+                    </div>
+                    <div class="card-services my-10">
+                        <h1
+                            id="package"
+                            class="text-txt font-bold text-center text-xl"
+                        >
+                            Standart
+                        </h1>
+                        <h1
+                            id="price"
+                            class="text-accent text-center font-bold py-5 text-4xl"
+                        >
+                            Rp 153,000<span class="text-sm">/bulan</span>
+                        </h1>
+                        <div class="list-subs">
+                            <img
+                                src="../asset/subscribe-package/Haruki Icons.png"
+                                class="bg-accent rounded-full"
+                            />
+                            <p>Ponsel, Tablet, Komputer, TV</p>
+                        </div>
+                        <div class="list-subs">
+                            <img
+                                src="../asset/subscribe-package/Haruki Icons.png"
+                                class="bg-accent rounded-full"
+                            />
+                            <p>No Ads</p>
+                        </div>
+                        <div class="list-subs">
+                            <img
+                                src="../asset/subscribe-package/Haruki Icons.png"
+                                class="bg-accent rounded-full"
+                            />
+                            <p>Batalkan Kapan Saja</p>
+                        </div>
+                        <div class="list-subs">
+                            <img
+                                src="../asset/subscribe-package/Haruki Icons.png"
+                                class="bg-accent rounded-full"
+                            />
+                            <p>Kualitas Video Baik</p>
+                        </div>
+                        <div class="list-subs">
+                            <img
+                                src="../asset/subscribe-package/Haruki Icons.png"
+                                class="bg-accent rounded-full"
+                            />
+                            <p>Resolusi 720p</p>
+                        </div>
+
+                        <button id="btn-subs" class="btn-red mt-10">
+                            Pilih Paket
+                        </button>
+                    </div>
+                    <div class="card-services my-10">
+                        <h1
+                            id="package"
+                            class="text-txt font-bold text-center text-xl"
+                        >
+                            Premium
+                        </h1>
+                        <h1
+                            id="price"
+                            class="text-accent text-center font-bold py-5 text-4xl"
+                        >
+                            Rp 186,000<span class="text-sm">/bulan</span>
+                        </h1>
+                        <div class="list-subs">
+                            <img
+                                src="../asset/subscribe-package/Haruki Icons.png"
+                                class="bg-accent rounded-full"
+                            />
+                            <p>Ponsel, Tablet, Komputer, TV</p>
+                        </div>
+                        <div class="list-subs">
+                            <img
+                                src="../asset/subscribe-package/Haruki Icons.png"
+                                class="bg-accent rounded-full"
+                            />
+                            <p>No Ads</p>
+                        </div>
+                        <div class="list-subs">
+                            <img
+                                src="../asset/subscribe-package/Haruki Icons.png"
+                                class="bg-accent rounded-full"
+                            />
+                            <p>Batalkan Kapan Saja</p>
+                        </div>
+                        <div class="list-subs">
+                            <img
+                                src="../asset/subscribe-package/Haruki Icons.png"
+                                class="bg-accent rounded-full"
+                            />
+                            <p>Kualitas Video Baik</p>
+                        </div>
+                        <div class="list-subs">
+                            <img
+                                src="../asset/subscribe-package/Haruki Icons.png"
+                                class="bg-accent rounded-full"
+                            />
+                            <p>Resolusi 1080p</p>
+                        </div>
+
+                        <button id="btn-subs" class="btn-red mt-10">
+                            Pilih Paket
+                        </button>
+                    </div>
+                </div>
+            </section>
+            <div
+                class="bg-gradient-to-b from-background via-red-950 to-red-900 py-20 mb-20"
+            >
+                <h1
+                    class="text-txt text-3xl text-center capitalize font-bold w-[700px] mx-auto"
+                >
+                    berlangganan untuk mendapatkan informasi terbaru dan menjadi
+                    anggota kami
+                </h1>
+                <form
+                    action=""
+                    class="flex items-center justify-center gap-x-10 pt-10"
+                >
+                    <input
+                        type="email"
+                        name="email"
+                        id="email"
+                        placeholder="Enter Your Email"
+                        class="p-2 rounded-xl focus:outline-none shadow-md"
+                    />
+                    <button type="submit" class="btn-red">Berlangganan</button>
+                </form>
+            </div>
+            <!-- END SUBSRCRIBE PACKAGE -->
+        </main>
+        <footer
+            class="flex items-center justify-center container mx-auto gap-x-5 py-20"
+        >
+            <div class="w-[20%]">
+                <img src="../asset/navbar/logos_netflix.png" />
+                <p class="text-sm font-thin text-txtDark mt-5">
+                    layanan streaming tanpa iklan dan harga bulanan yang murah
+                </p>
+            </div>
+            <div class="w-[20%]">
+                <h1 class="font-bold text-txt mb-5">Perusahaan</h1>
+                <ul class="text-txtDark text-sm list-disc list-outside">
+                    <li>Tentang Kami</li>
+                    <li>Hubungi Kami</li>
+                    <li>Karir</li>
+                </ul>
+            </div>
+            <div class="w-[20%]">
+                <h1 class="text-txt font-bold mb-5">Dapatkan Bantuan</h1>
+                <ul class="text-txtDark text-sm list-disc list-outside">
+                    <li>FAQ</li>
+                    <li>Pusat Bantuan</li>
+                    <li>Akun</li>
+                </ul>
+            </div>
+            <div class="w-[20%]">
+                <h1 class="text-txt font-bold mb-5">Lainnya</h1>
+                <ul class="text-txtDark text-sm list-disc list-outside">
+                    <li>Tukar Kartu Hadiah</li>
+                    <li>Netflix Originals</li>
+                    <li>Media Center</li>
+                </ul>
+            </div>
+            <div class="overflow-hidden w-[20%]">
+                <h1 class="pb-5 text-txt font-bold">Dapatkan Applikasi Kami</h1>
+                <div class="flex items-center justify-around gap-x-2">
+                    <img
+                        src="../asset/footer/App Store.png"
+                        alt="App Store"
+                        class="w-20"
+                    />
+                    <img
+                        src="../asset/footer/Google Play.png"
+                        alt="Google Play"
+                        class="w-20"
+                    />
+                </div>
+                <div class="flex items-center justify-around mt-5">
+                    <img
+                        src="../asset/footer/bx_bxl-facebook.png"
+                        alt="Facebook"
+                    />
+                    <img
+                        src="../asset/footer/akar-icons_instagram-fill.png"
+                        alt="Instagram"
+                    />
+                    <img
+                        src="../asset/footer/akar-icons_twitter-fill.png"
+                        alt="Twitter"
+                    />
+                </div>
+            </div>
+        </footer>
+        <div class="d-flex container mx-auto mb-2">
+            <p class="text-txt">2022 Hak Cipta Terpelihara Oleh Netflix</p>
+            <div class="flex items-center gap-x-5 text-txtDark">
+                <a href="#">Persyaratan Layanan</a>
+                <a href="#">Kebijakan Privasi</a>
+            </div>
+        </div>
+    </body>
+</html>
